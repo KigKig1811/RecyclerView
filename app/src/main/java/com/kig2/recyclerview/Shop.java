@@ -1,6 +1,6 @@
 package com.kig2.recyclerview;
 
-class Shop {
+public class Shop {
     private  String name;
     private Integer countShops;
     private String address;
