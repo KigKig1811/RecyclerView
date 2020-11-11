@@ -6,8 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_shop"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:spanCount="2">
 
     </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
